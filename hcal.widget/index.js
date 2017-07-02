@@ -29,7 +29,7 @@ style: "                              \n\
                                       \n\
   .cal-container                      \n\
     border-radius: 10px               \n\
-    background: rgba(#000, 0.3)       \n\
+    background: rgba(#000, 0)         \n\
     padding: 10px                     \n\
                                       \n\
   .title                              \n\
@@ -72,13 +72,13 @@ style: "                              \n\
     background: rgba(#0bf, .8)        \n\
                                       \n\
   .midline .offday                    \n\
-    background: rgba(#f77, .5)        \n\
+    background: rgba(#38f, .5)        \n\
                                       \n\
   .midline .off-today                 \n\
-    background: rgba(#fc3, .8)        \n\
+    background: rgba(#3cf, .8)        \n\
                                       \n\
   .offday, .off-today                 \n\
-    color: rgba(#f77, 1)              \n\
+    color: rgba(#38f, 1)              \n\
 ",
 
 update: function (output, domEl) {
