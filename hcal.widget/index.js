@@ -1,9 +1,9 @@
 command: "echo Hello World!",
 // command: 'date -v1d +"%e"; date -v1d -v+1m -v-1d +"%d"; date +"%d%n%m%n%Y"',
 
-dayNames: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
-monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-offdayIndices: [5, 6], // Fr, Sa
+dayNames: ["Do", "Se", "Te", "Qa", "Qq
+monthNames: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+offdayIndices: [0, 6], // Su, Sa
  
 refreshFrequency: 5000,
 displayedDate: null,
