@@ -1,7 +1,7 @@
 command: "echo Hello World!",
 // command: 'date -v1d +"%e"; date -v1d -v+1m -v-1d +"%d"; date +"%d%n%m%n%Y"',
 
-dayNames: ["Do", "Se", "Te", "Qa", "Qq
+dayNames: ["Do", "Sg", "Te", "Qa", "Qi", "Sx", "Sa"],
 monthNames: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
 offdayIndices: [0, 6], // Su, Sa
  
@@ -21,7 +21,7 @@ render: function (output) {
  
 style: "                              \n\
   bottom: 20px                        \n\
-  left: 20px                          \n\
+  left: 300px                         \n\
   font-family: Helvetica Neue         \n\
   font-size: 11px                     \n\
   font-weight: 500                    \n\
